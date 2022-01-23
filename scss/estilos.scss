@@ -1,0 +1,8 @@
+$primary: rgb(136, 25, 108);
+$theme-colors: (
+    "primary": $primary,
+);
+body {
+    background-color: aqua;
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
