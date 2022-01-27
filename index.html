@@ -5,33 +5,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/67efa75ecc.js" crossorigin="anonymous"></script>
     <title>Eure-k Diseño Multimedial</title>
     <link rel="icon" href="./img/logo4.ico" />
-    <link rel="stylesheet" href="./scss/estilos.scss">
-    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <script src="https://kit.fontawesome.com/67efa75ecc.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reducido.css">
 </head>
 
-<body>
+<body class="bg-primary">
     <!-- Header -->
-    <header class="container-fluid shadow-sm p-3 mb-5 bg-body rounded">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="container-fluid p-3 bg-primary rounded">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid gap-3">
                 <a class="navbar-brand" href="#index"></a>
                 <img src="./img/logoico.ico" width="160" height="130" alt="logo">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="btn btn-success navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav gap-3">
-                        <a class="btn btn-outline-dark" aria-current="page" href="index.html">Inicio</a>
-                        <a class="btn btn-outline-dark" aria-current="page" href="tienda.html">Tienda</a>
-                        <a class="btn btn-outline-dark" aria-current="page" href="servicios.html">Servicios</a>
-                        <a class="btn btn-outline-dark" aria-current="page" href="nosotros.html">Nosotros</a>
-                        <a class="btn btn-outline-dark" aria-current="page" href="contacto.html">Contacto</a>
+                        <a class="btn btn-success" aria-current="page" href="index.html">Inicio</a>
+                        <a class="btn btn-success" aria-current="page" href="tienda.html">Tienda</a>
+                        <a class="btn btn-success" aria-current="page" href="servicios.html">Servicios</a>
+                        <a class="btn btn-success" aria-current="page" href="nosotros.html">Nosotros</a>
+                        <a class="btn btn-success" aria-current="page" href="contacto.html">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -39,9 +38,12 @@
     </header>
     <!-- Main -->
     <main class="container">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card bg-dark text-white">
+        <!-- Fila -->
+        <div class="row">
+            <!-- Columna -->
+            <div class="col-12 col-sm-6 p-2">
+                <!-- Card -->
+                <div class="card bg-secondary text-white">
                     <h5 class="card-title text-center m-3">Novedad</h5>
                     <img src="./img/publicidad.jpg" class="card-img-top" alt="publicidad">
                     <div class="card-body">
@@ -51,8 +53,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card bg-dark text-white">
+            <!-- Columna -->
+            <div class="col-12 col-sm-6 p-2">
+                <!-- Card -->
+                <div class="card bg-secondary text-white">
                     <h5 class="card-title text-center m-3">Novedad</h5>
                     <img src="./img/promocion.jpg" class="card-img-top" alt="diseño">
                     <div class="card-body">
@@ -62,19 +66,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card bg-dark text-white">
-                    <h5 class="card-title text-center m-3">Novedad</h5>
-                    <img src="./img/promocion.jpg" class="card-img-top" alt="diseño">
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis
-                            reprehenderit quae nostrum, amet ut maxime non impedit, vitae similique nobis repudiandae
-                            placeat unde libero, dolor neque porro illum nisi.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card bg-dark text-white">
+        </div>
+        <!-- Fila -->
+        <div class="row">
+            <!-- Columna -->
+            <div class="col-12 col-sm-6 p-2">
+                <!-- Card -->
+                <div class="card bg-secondary text-white">
                     <h5 class="card-title text-center m-3">Novedad</h5>
                     <img src="./img/publicidad.jpg" class="card-img-top" alt="publicidad">
                     <div class="card-body">
@@ -84,10 +82,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card bg-dark text-white">
+            <!-- columna -->
+            <div class="col-12 col-sm-6 p-2">
+                <!-- Card -->
+                <div class="card bg-secondary text-white">
                     <h5 class="card-title text-center m-3">Novedad</h5>
-                    <img src="./img/publicidad.jpg" class="card-img-top" alt="publicidad">
+                    <img src="./img/promocion.jpg" class="card-img-top" alt="diseño">
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis
                             reprehenderit quae nostrum, amet ut maxime non impedit, vitae similique nobis repudiandae
@@ -95,10 +95,28 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card bg-dark text-white">
+        </div>
+        <!-- Fila -->
+        <div class="row">
+            <!-- Columna -->
+            <div class="col-12 col-sm-6 p-2">
+                <!-- Card -->
+                <div class="card bg-secondary text-white">
                     <h5 class="card-title text-center m-3">Novedad</h5>
                     <img src="./img/promocion.jpg" class="card-img-top" alt="diseño">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis
+                            reprehenderit quae nostrum, amet ut maxime non impedit, vitae similique nobis repudiandae
+                            placeat unde libero, dolor neque porro illum nisi.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna -->
+            <div class="col-12 col-sm-6 p-2">
+                <!-- Card -->
+                <div class="card bg-secondary text-white">
+                    <h5 class="card-title text-center m-3">Novedad</h5>
+                    <img src="./img/publicidad.jpg" class="card-img-top" alt="publicidad">
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis
                             reprehenderit quae nostrum, amet ut maxime non impedit, vitae similique nobis repudiandae
@@ -109,37 +127,39 @@
         </div>
     </main>
     <!-- Footer -->
-    <footer class="container-fluid shadow-sm p-3 mb-5 bg-body rounded mt-5">
+    <footer class="container-fluid shadow-sm p-3 mb-5 bg-primary rounded mt-5">
         <div class="d-flex justify-content-evenly m-5">
             <div>
-                <button type="button" class="btn btn-primary"><i class="fab fa-facebook"></i></button>
+                <button type="button" class="btn btn-light"><i class="fab fa-facebook"></i></button>
             </div>
             <div>
-                <button type="button" class="btn btn-dark"><i class="fab fa-instagram"></i></button>
+                <button class="btn btn-warning"><i class="fab fa-instagram"></i></button>
             </div>
             <div>
-                <button type="button" class="btn btn-success"><i class="fab fa-whatsapp"></i></button>
+                <button type="button" class="btn btn-info"><i class="fab fa-whatsapp"></i></button>
             </div>
         </div>
-        <div class="d-flex justify-content-evenly m-5">
-            <div>
-                <a class="nav-link link-dark" href="">Ayuda</a>
+        <div class="d-flex justify-content-evenly m-4 ">
+            <div class="p-1">
+                <a class="btn btn-success" href="">Ayuda</a>
             </div>
-            <div>
-                <a class="nav-link link-dark" href="">Promociones</a>
+            <div class="p-1">
+                <a class="btn btn-success" href="">Promociones</a>
             </div>
-            <div>
-                <a class="nav-link link-dark" href="">Sugerencias</a>
+            <div class="p-1">
+                <a class="btn btn-success" href="">Sugerencias</a>
             </div>
-            <div>
-                <a class="nav-link link-dark" href="">Contacto</a>
+            <div class="p-1">
+                <a class="btn btn-success" href="">Contacto</a>
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
